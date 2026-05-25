@@ -1,0 +1,23 @@
+@startuml 播放控制时序
+actor App
+participant PlayerView
+participant Player
+participant JniBridge
+participant NativeEngine
+participant Decoder
+participant RenderGraph
+
+App -> PlayerView: onCreate
+PlayerView -> Player: initEngine
+Player -> JniBridge: nativeInit
+JniBridge -> NativeEngine: create
+App -> Player: prepare(clip)
+Player -> NativeEngine: setDataSource
+NativeEngine -> Decoder: configure
+Decoder -> MediaCodec: prepare
+Player -> App: onPrepared
+App -> Player: play
+Player -> NativeEngine: startAudioClock
+NativeEngine -> RenderGraph: renderFrame
+RenderGraph -> Screen: present
+@enduml

@@ -1,0 +1,24 @@
+@startuml 系统架构类图
+class PlayerView
+class Player
+class Timeline
+class JniBridge
+class NativeEngine
+class Decoder
+class TextureManager
+class RenderGraph
+class LayerComposer
+class AudioClock
+class Exporter
+
+PlayerView --> Player
+Player --> Timeline
+Player --> JniBridge
+JniBridge --> NativeEngine
+NativeEngine --> Decoder
+NativeEngine --> TextureManager
+NativeEngine --> RenderGraph
+NativeEngine --> LayerComposer
+NativeEngine --> AudioClock
+NativeEngine --> Exporter
+@enduml

@@ -1,0 +1,19 @@
+@startuml 离线导出流程
+start
+:初始化导出配置;
+:创建ExportClock;
+:创建离屏FBO;
+:启动编码器;
+:逐帧触发Timeline Tick;
+:离屏RenderGraph渲染;
+:帧数据送入EncoderSurface;
+:MediaCodec编码;
+:MediaMuxer封装MP4;
+:进度回调;
+if (导出完成/取消?) then (是)
+    :释放所有资源;
+else (否)
+    :继续下一帧;
+endif
+end
+@enduml
