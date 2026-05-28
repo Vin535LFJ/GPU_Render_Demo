@@ -9,6 +9,10 @@
 ## Completed in this update
 - 建立 freeze 文档集（checklist/conflicts/contracts/ownership/lifecycle/state/error）。
 - 建立 roadmap 文档集（stage/依赖/scope/risk/strategy/milestone/validation/status）。
+
+- 输出 Step1 C0 回填逐段落草案。
+- 已完成 Step2 中优先级缺口回填（02/06/08：ownership、lifecycle、seek recover、线程规范）。
+
 - 明确禁止项：未进入功能设计、未进入实现任务、未开始 coding。
 
 ## Open Blockers
@@ -16,6 +20,8 @@
 2. 01/03/06 仍是粗粒度 Seeking 状态。
 3. 04 缺 JNI versioning/error/线程 contract。
 4. 05/07 指标口径未完全覆盖 P99 与 drift/drop。
+5. 02/06/08 ownership/lifecycle/seek recover/线程规范已回填（待与C0一并评审关单）。
+
 
 ## Next Gate
 - 完成 00–08 的回填修改并关闭 C0 blockers，方可进入 Stage 1。
