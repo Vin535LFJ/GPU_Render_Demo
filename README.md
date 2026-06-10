@@ -17,8 +17,8 @@
 
 ## 当前阶段
 
-当前处于 **P0：Baseline Freeze**。
+当前处于 **P1：MVP Preview Loop 稳定化**。
 
-P0 的最高优先级是统一文档与 Runtime Contract，关闭 C++ 基线、seek 状态机、AV sync 阈值、release order、JNI contract、指标口径、ownership 等 blocker。
+P0 文档与 Runtime Contract 已基本冻结；当前工作重心是把 P1 的最小预览链路做成可稳定验证的播放闭环：MP4 解码、OES 上屏、基础播放控制、seek/EOS/release 行为和基础指标。
 
-在 P0 完成前，不应进入功能编码。
+在 P1 验收前，不应进入复杂特效、离线导出或 4K/兼容性优化。

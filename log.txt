@@ -1,0 +1,876 @@
+2026-06-08 14:16:13.406  1362-1362  XiriAppCha...stReceiver pid-1362                             E  [2] onReceive intent=package:com.example.render_native_demo#Intent;action=android.intent.action.PACKAGE_REMOVED;launchFlags=0x4000010;B.android.intent.extra.REMOVED_FOR_ALL_USERS=false;B.android.intent.extra.DONT_KILL_APP=true;i.android.intent.extra.UID=10033;B.android.intent.extra.DATA_REMOVED=false;B.android.intent.extra.REPLACING=true;i.android.intent.extra.user_handle=0;end
+2026-06-08 14:16:13.420  1362-1362  XiriAppCha...stReceiver pid-1362                             E  [2] onReceive intent=package:com.example.render_native_demo#Intent;action=android.intent.action.PACKAGE_ADDED;launchFlags=0x4000010;i.android.intent.extra.UID=10033;B.android.intent.extra.REPLACING=true;i.android.intent.extra.user_handle=0;end
+2026-06-08 14:16:13.423   682-826   AppRank.Manager         pid-682                              E   package com.example.render_native_demo  action = android.intent.action.PACKAGE_REMOVED
+2026-06-08 14:16:13.486   682-826   AppRank.Manager         pid-682                              E   package com.example.render_native_demo  action = android.intent.action.PACKAGE_ADDED
+2026-06-08 14:16:13.498   682-826   AppRank.Manager         pid-682                              E   package com.example.render_native_demo  action = android.intent.action.PACKAGE_REPLACED
+2026-06-08 14:16:13.541  1362-1375  XiriCore                pid-1362                             E   scene = {"appContent":"{\"alias\":\"芒果TV|TV|爱芒果\",\"extra\":\"com.mgtv.tv\",\"name\":\"芒果TV\"}\r\n{\"alias\":\"播放器\",\"extra\":\"com.mgtv.mediaplayer\",\"name\":\"本地播放器\"}\r\n{\"alias\":\"文件管理|文件管理器\",\"extra\":\"com.mgtv.filemanager\",\"name\":\"本地文件管理\"}\r\n{\"alias\":\"爱奇艺|奇艺果\",\"extra\":\"com.gitvvideo.mango\",\"name\":\"银河奇异果\"}\r\n{\"alias\":\"优酷|优酷视频|酷喵|CIBN酷喵|CIBN影视|酷喵影视\",\"extra\":\"com.cibn.tv\",\"name\":\"CIBN酷喵影视\"}\r\n{\"alias\":\"小电视|B站|哔哩哔哩\",\"extra\":\"com.xiaodianshi.tv.yst\",\"name\":\"云视听小电视\"}\r\n{\"alias\":\"4K花园\",\"extra\":\"net.cibntv.ott.sk\",\"name\":\"CIBN4K花园\"}\r\n{\"alias\":\"我的应用|应用管理\",\"extra\":\"com.mgtv.myapp\",\"name\":\"应用中心\"}\r\n{\"alias\":\"升级管理\",\"extra\":\"com.mgtv.ota\",\"name\":\"系统升级\"}\r\n{\"extra\":\"com.mgtv.mgui\",\"name\":\"牛奶桌面\"}\r\n{\"extra\":\"com.mgtv.setting\",\"name\":\"设置\"}\r\n{\"extra\":\"com.cibn.tv\",\"name\":\"CIBN酷喵\"}\r\n{\"extra\":\"com.iflytek.xiri\",\"name\":\"讯飞电视助手\"}\r\n{\"extra\":\"com.mango.dangbeimarket\",\"name\":\"芒果TV市场\"}\r\n{\"extra\":\"com.mgtv.cast\",\"name\":\"芒果投屏\"}\r\n{\"extra\":\"com.mgtv.remote\",\"name\":\"电视助手\"}\r\n{\"extra\":\"com.tencent.qqmusictv\",\"name\":\"QQ音乐\"}\r\n{\"extra\":\"com.example.petcatmvp\",\"name\":\"PetCatMVP\"}\r\n{\"extra\":\"com.example.render_native_demo\",\"name\":\"Render_Native_Demo\"}\r\n{\"extra\":\"com.hunantv.playertest\",\"name\":\"mg-effect-engine\"}\r\n","code":0,"sceneType":0,"type":"4"}
+2026-06-08 14:16:13.633   462-473   ActivityManager         pid-462                              E  getPackageFerformanceMode--ComponentInfo{com.example.render_native_demo/com.example.render_native_demo.MainActivity}----com.example.render_native_demo
+2026-06-08 14:16:13.637  1362-6275  XiriCore                pid-1362                             E   scene = {"appContent":"{\"alias\":\"芒果TV|TV|爱芒果\",\"extra\":\"com.mgtv.tv\",\"name\":\"芒果TV\"}\r\n{\"alias\":\"播放器\",\"extra\":\"com.mgtv.mediaplayer\",\"name\":\"本地播放器\"}\r\n{\"alias\":\"文件管理|文件管理器\",\"extra\":\"com.mgtv.filemanager\",\"name\":\"本地文件管理\"}\r\n{\"alias\":\"爱奇艺|奇艺果\",\"extra\":\"com.gitvvideo.mango\",\"name\":\"银河奇异果\"}\r\n{\"alias\":\"优酷|优酷视频|酷喵|CIBN酷喵|CIBN影视|酷喵影视\",\"extra\":\"com.cibn.tv\",\"name\":\"CIBN酷喵影视\"}\r\n{\"alias\":\"小电视|B站|哔哩哔哩\",\"extra\":\"com.xiaodianshi.tv.yst\",\"name\":\"云视听小电视\"}\r\n{\"alias\":\"4K花园\",\"extra\":\"net.cibntv.ott.sk\",\"name\":\"CIBN4K花园\"}\r\n{\"alias\":\"我的应用|应用管理\",\"extra\":\"com.mgtv.myapp\",\"name\":\"应用中心\"}\r\n{\"alias\":\"升级管理\",\"extra\":\"com.mgtv.ota\",\"name\":\"系统升级\"}\r\n{\"extra\":\"com.mgtv.mgui\",\"name\":\"牛奶桌面\"}\r\n{\"extra\":\"com.mgtv.setting\",\"name\":\"设置\"}\r\n{\"extra\":\"com.cibn.tv\",\"name\":\"CIBN酷喵\"}\r\n{\"extra\":\"com.iflytek.xiri\",\"name\":\"讯飞电视助手\"}\r\n{\"extra\":\"com.mango.dangbeimarket\",\"name\":\"芒果TV市场\"}\r\n{\"extra\":\"com.mgtv.cast\",\"name\":\"芒果投屏\"}\r\n{\"extra\":\"com.mgtv.remote\",\"name\":\"电视助手\"}\r\n{\"extra\":\"com.tencent.qqmusictv\",\"name\":\"QQ音乐\"}\r\n{\"extra\":\"com.example.petcatmvp\",\"name\":\"PetCatMVP\"}\r\n{\"extra\":\"com.example.render_native_demo\",\"name\":\"Render_Native_Demo\"}\r\n{\"extra\":\"com.hunantv.playertest\",\"name\":\"mg-effect-engine\"}\r\n","code":0,"sceneType":0,"type":"4"}
+2026-06-08 14:16:13.675   462-9802  ActivityManager         pid-462                              E  getPackageFerformanceMode--ComponentInfo{com.example.render_native_demo/com.example.render_native_demo.MainActivity}----com.example.render_native_demo
+2026-06-08 14:16:13.734  1362-6275  XiriCore                pid-1362                             E   scene = {"appContent":"{\"alias\":\"芒果TV|TV|爱芒果\",\"extra\":\"com.mgtv.tv\",\"name\":\"芒果TV\"}\r\n{\"alias\":\"播放器\",\"extra\":\"com.mgtv.mediaplayer\",\"name\":\"本地播放器\"}\r\n{\"alias\":\"文件管理|文件管理器\",\"extra\":\"com.mgtv.filemanager\",\"name\":\"本地文件管理\"}\r\n{\"alias\":\"爱奇艺|奇艺果\",\"extra\":\"com.gitvvideo.mango\",\"name\":\"银河奇异果\"}\r\n{\"alias\":\"优酷|优酷视频|酷喵|CIBN酷喵|CIBN影视|酷喵影视\",\"extra\":\"com.cibn.tv\",\"name\":\"CIBN酷喵影视\"}\r\n{\"alias\":\"小电视|B站|哔哩哔哩\",\"extra\":\"com.xiaodianshi.tv.yst\",\"name\":\"云视听小电视\"}\r\n{\"alias\":\"4K花园\",\"extra\":\"net.cibntv.ott.sk\",\"name\":\"CIBN4K花园\"}\r\n{\"alias\":\"我的应用|应用管理\",\"extra\":\"com.mgtv.myapp\",\"name\":\"应用中心\"}\r\n{\"alias\":\"升级管理\",\"extra\":\"com.mgtv.ota\",\"name\":\"系统升级\"}\r\n{\"extra\":\"com.mgtv.mgui\",\"name\":\"牛奶桌面\"}\r\n{\"extra\":\"com.mgtv.setting\",\"name\":\"设置\"}\r\n{\"extra\":\"com.cibn.tv\",\"name\":\"CIBN酷喵\"}\r\n{\"extra\":\"com.iflytek.xiri\",\"name\":\"讯飞电视助手\"}\r\n{\"extra\":\"com.mango.dangbeimarket\",\"name\":\"芒果TV市场\"}\r\n{\"extra\":\"com.mgtv.cast\",\"name\":\"芒果投屏\"}\r\n{\"extra\":\"com.mgtv.remote\",\"name\":\"电视助手\"}\r\n{\"extra\":\"com.tencent.qqmusictv\",\"name\":\"QQ音乐\"}\r\n{\"extra\":\"com.example.petcatmvp\",\"name\":\"PetCatMVP\"}\r\n{\"extra\":\"com.example.render_native_demo\",\"name\":\"Render_Native_Demo\"}\r\n{\"extra\":\"com.hunantv.playertest\",\"name\":\"mg-effect-engine\"}\r\n","code":0,"sceneType":0,"type":"4"}
+---------------------------- PROCESS STARTED (15989) for package com.example.render_native_demo ----------------------------
+2026-06-08 14:16:13.938 15989-15989 MainActivity            com.example.render_native_demo       I  Copied asset to: /data/user/0/com.example.render_native_demo/cache/test.mp4
+2026-06-08 14:16:13.938 15989-15989 MainActivity            com.example.render_native_demo       I  Decoder surface not ready yet, pending
+2026-06-08 14:16:13.981 15989-15989 MainActivity            com.example.render_native_demo       I  View attached to window
+2026-06-08 14:16:14.015 15989-16024 mali_so                 com.example.render_native_demo       I  [File] : hardware/arm/maliT760/driver/product/base/src/mali_base_kbase.c; [Line] : 876; [Func] : base_context_deal_with_version_affairs_rk_ext;
+                                                                                                    arm_release_ver of this mali_so is 'r18p0-01rel0', rk_so_ver is '8@0'.
+2026-06-08 14:16:14.023 15989-16024 com.exampl...ative_demo com.example.render_native_demo       I  android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+2026-06-08 14:16:14.023 15989-16024 OpenGLRenderer          com.example.render_native_demo       I  Initialized EGL, version 1.4
+2026-06-08 14:16:14.032 15989-16018 MainActivity            com.example.render_native_demo       I  ===== onSurfaceCreated =====
+2026-06-08 14:16:14.032 15989-16018 RenderRenderer          com.example.render_native_demo       I  ===== Initializing RenderRenderer =====
+2026-06-08 14:16:14.032 15989-16018 RenderRenderer          com.example.render_native_demo       I  ===== Initializing GL resources =====
+2026-06-08 14:16:14.033 15989-16018 RenderRenderer          com.example.render_native_demo       I  Created OES texture: 1
+2026-06-08 14:16:14.034 15989-16018 RenderRenderer          com.example.render_native_demo       I  SurfaceTexture created successfully
+2026-06-08 14:16:14.034 15989-16018 MainActivity            com.example.render_native_demo       I  ===== SurfaceTexture available =====
+2026-06-08 14:16:14.035 15989-16018 MainActivity            com.example.render_native_demo       I  Starting pending decoder: /data/user/0/com.example.render_native_demo/cache/test.mp4
+2026-06-08 14:16:14.035 15989-16018 MainActivity            com.example.render_native_demo       I  prepareAndPlay: /data/user/0/com.example.render_native_demo/cache/test.mp4
+2026-06-08 14:16:14.035 15989-16018 RuntimeController       com.example.render_native_demo       I  [prepare] called with: /data/user/0/com.example.render_native_demo/cache/test.mp4
+2026-06-08 14:16:14.035 15989-16018 RuntimeController       com.example.render_native_demo       I  [prepare] State transition: IDLE -> PREPARED
+2026-06-08 14:16:14.036 15989-16018 MainActivity            com.example.render_native_demo       I  Starting decoder: /data/user/0/com.example.render_native_demo/cache/test.mp4
+2026-06-08 14:16:14.036 15989-16018 DecodeThread            com.example.render_native_demo       I  ===== prepare: /data/user/0/com.example.render_native_demo/cache/test.mp4 =====
+2026-06-08 14:16:14.037 15989-16018 MainActivity            com.example.render_native_demo       I  Starting audio decoder: /data/user/0/com.example.render_native_demo/cache/test.mp4
+2026-06-08 14:16:14.037 15989-16022 DecodeThread            com.example.render_native_demo       I  Creating MediaExtractor
+2026-06-08 14:16:14.039 15989-16018 MediaExtractor          com.example.render_native_demo       W  creating media extractor in calling process
+2026-06-08 14:16:14.039 15989-16022 MediaExtractor          com.example.render_native_demo       W  creating media extractor in calling process
+2026-06-08 14:16:14.045 15989-16018 ffmExtractor            com.example.render_native_demo       E  Cannot load library libffmpeg_utils.so dlerror = dlopen failed: library "libffmpeg_utils.so" not found
+2026-06-08 14:16:14.045 15989-16018 ffmExtractor            com.example.render_native_demo       E  lib open failed
+2026-06-08 14:16:14.046 15989-16022 ffmExtractor            com.example.render_native_demo       E  Cannot load library libffmpeg_utils.so dlerror = dlopen failed: library "libffmpeg_utils.so" not found
+2026-06-08 14:16:14.046 15989-16022 ffmExtractor            com.example.render_native_demo       E  lib open failed
+2026-06-08 14:16:14.056 15989-16018 SampleTable             com.example.render_native_demo       I  There are reordered frames present.
+2026-06-08 14:16:14.056 15989-16022 SampleTable             com.example.render_native_demo       I  There are reordered frames present.
+2026-06-08 14:16:14.062 15989-16022 DecodeThread            com.example.render_native_demo       I  MediaExtractor created successfully
+2026-06-08 14:16:14.062 15989-16022 DecodeThread            com.example.render_native_demo       I  Looking for video track...
+2026-06-08 14:16:14.064 15989-16022 DecodeThread            com.example.render_native_demo       I  Found video track at index 0
+2026-06-08 14:16:14.066 15989-16022 DecodeThread            com.example.render_native_demo       I  Video duration: 4966 ms
+2026-06-08 14:16:14.067 15989-16022 DecodeThread            com.example.render_native_demo       I  Video format: video/avc, size: 1920x1080
+2026-06-08 14:16:14.067 15989-16022 DecodeThread            com.example.render_native_demo       I  Creating MediaCodec for video/avc
+2026-06-08 14:16:14.072 15989-16037 OMXClient               com.example.render_native_demo       I  Treble IOmx obtained
+2026-06-08 14:16:14.074 15989-16039 OMXClient               com.example.render_native_demo       I  Treble IOmx obtained
+2026-06-08 14:16:14.079 15989-16022 DecodeThread            com.example.render_native_demo       I  MediaCodec created
+2026-06-08 14:16:14.079 15989-16022 DecodeThread            com.example.render_native_demo       I  Configuring codec with surface: Surface(name=android.graphics.SurfaceTexture@1c949fc)/@0xc277885, width: 1920, height: 1080
+2026-06-08 14:16:14.079 15989-16018 AudioDecoder            com.example.render_native_demo       I  Audio format: {max-bitrate=192000, sample-rate=44100, track-id=2, durationUs=5015510, mime=audio/mp4a-latm, profile=2, channel-count=2, language=und, bitrate=192000, max-input-size=1275, csd-0=java.nio.HeapByteBuffer[pos=0 lim=2 cap=2]}
+2026-06-08 14:16:14.079 15989-16018 AudioDecoder            com.example.render_native_demo       I  Audio decoder prepared successfully
+2026-06-08 14:16:14.080 15989-16038 MediaCodec              com.example.render_native_demo       I  [OMX.rk.video_decoder.avc] setting surface generation to 16372737
+2026-06-08 14:16:14.081 15989-16039 ACodec                  com.example.render_native_demo       E  [OMX.rk.video_decoder.avc] setPortMode on output to DynamicANWBuffer failed w/ err -1010
+2026-06-08 14:16:14.083 15989-16039 AHierarchi...ateMachine com.example.render_native_demo       W  Warning message AMessage(what = 'omxI') = {
+                                                                                                      int32_t type = 0
+                                                                                                      int32_t event = 3
+                                                                                                      int32_t data1 = 1
+                                                                                                      int32_t data2 = 117440527
+                                                                                                    } unhandled in root state.
+2026-06-08 14:16:14.084 15989-16022 DecodeThread            com.example.render_native_demo       I  Codec configured successfully
+2026-06-08 14:16:14.087 15989-16024 [Gralloc]               com.example.render_native_demo       I  Got handle 1 for fd 61
+2026-06-08 14:16:14.087 15989-16024 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+2026-06-08 14:16:14.087 15989-16024 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=61,share_attr_fd=62
+2026-06-08 14:16:14.087 15989-16018 RuntimeController       com.example.render_native_demo       I  [play] called
+2026-06-08 14:16:14.087 15989-16018 RuntimeController       com.example.render_native_demo       I  [play] State transition: PLAYING -> PLAYING
+2026-06-08 14:16:14.102 15989-16039 ACodec                  com.example.render_native_demo       W  [OMX.rk.video_decoder.avc] setting nBufferCountActual to 24 failed: -22
+2026-06-08 14:16:14.106 15989-16018 RenderRenderer          com.example.render_native_demo       I  Shader program created: 3
+2026-06-08 14:16:14.106 15989-16039 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:14.107 15989-16018 RenderRenderer          com.example.render_native_demo       I  Vertex buffer initialized
+2026-06-08 14:16:14.107 15989-16018 MainActivity            com.example.render_native_demo       I  onSurfaceChanged: 1920 x 1008
+2026-06-08 14:16:14.112 15989-16046 AudioDecoder            com.example.render_native_demo       I  Audio codec started
+2026-06-08 14:16:14.114 15989-16039 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:14.114 15989-16039 [Gralloc]               com.example.render_native_demo       I  Got handle 2 for fd 74
+2026-06-08 14:16:14.114 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:14.114 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=74,share_attr_fd=75
+2026-06-08 14:16:14.114 15989-16039 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:14.122 15989-16039 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:14.122 15989-16039 [Gralloc]               com.example.render_native_demo       I  Got handle 3 for fd 69
+2026-06-08 14:16:14.122 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:14.122 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=69,share_attr_fd=71
+2026-06-08 14:16:14.123 15989-16039 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:14.130 15989-16039 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:14.130 15989-16039 [Gralloc]               com.example.render_native_demo       I  Got handle 4 for fd 80
+2026-06-08 14:16:14.130 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:14.130 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=80,share_attr_fd=81
+2026-06-08 14:16:14.131 15989-16039 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:14.138 15989-16039 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:14.139 15989-16039 [Gralloc]               com.example.render_native_demo       I  Got handle 5 for fd 83
+2026-06-08 14:16:14.139 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:14.139 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=83,share_attr_fd=84
+2026-06-08 14:16:14.139 15989-16018 [Gralloc]               com.example.render_native_demo       I  Got handle 6 for fd 89
+2026-06-08 14:16:14.139 15989-16018 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1008, format : 0x2,internal_format : 0x2, usage : 0xb00. size=7741440,pixel_stride=1920,byte_stride=7680
+2026-06-08 14:16:14.139 15989-16018 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=89,share_attr_fd=90
+2026-06-08 14:16:14.139 15989-16039 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:14.146 15989-16039 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:14.146 15989-16039 [Gralloc]               com.example.render_native_demo       I  Got handle 7 for fd 86
+2026-06-08 14:16:14.146 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:14.146 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=86,share_attr_fd=87
+2026-06-08 14:16:14.146 15989-16039 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:14.148 15989-16046 AudioDecoder            com.example.render_native_demo       I  Audio output format changed: {sample-rate=44100, pcm-encoding=2, mime=audio/raw, channel-count=2}
+2026-06-08 14:16:14.159 15989-16039 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:14.160 15989-16039 [Gralloc]               com.example.render_native_demo       I  Got handle 8 for fd 92
+2026-06-08 14:16:14.160 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:14.160 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=92,share_attr_fd=93
+2026-06-08 14:16:14.160 15989-16039 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:14.167 15989-16039 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:14.167 15989-16039 [Gralloc]               com.example.render_native_demo       I  Got handle 9 for fd 95
+2026-06-08 14:16:14.167 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:14.167 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=95,share_attr_fd=96
+2026-06-08 14:16:14.168 15989-16039 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:14.176 15989-16039 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:14.176 15989-16039 [Gralloc]               com.example.render_native_demo       I  Got handle 10 for fd 98
+2026-06-08 14:16:14.176 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:14.176 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=98,share_attr_fd=99
+2026-06-08 14:16:14.177 15989-16039 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:14.185 15989-16039 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:14.185 15989-16039 [Gralloc]               com.example.render_native_demo       I  Got handle 11 for fd 102
+2026-06-08 14:16:14.185 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:14.185 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=102,share_attr_fd=103
+2026-06-08 14:16:14.188 15989-16039 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:14.193 15989-16018 [Gralloc]               com.example.render_native_demo       I  Got handle 12 for fd 108
+2026-06-08 14:16:14.193 15989-16018 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1008, format : 0x2,internal_format : 0x2, usage : 0xb00. size=7741440,pixel_stride=1920,byte_stride=7680
+2026-06-08 14:16:14.193 15989-16018 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=108,share_attr_fd=109
+2026-06-08 14:16:14.194 15989-16039 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:14.194 15989-16039 [Gralloc]               com.example.render_native_demo       I  Got handle 13 for fd 114
+2026-06-08 14:16:14.194 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:14.194 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=114,share_attr_fd=115
+2026-06-08 14:16:14.196 15989-16039 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:14.202 15989-16039 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:14.202 15989-16039 [Gralloc]               com.example.render_native_demo       I  Got handle 14 for fd 106
+2026-06-08 14:16:14.202 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:14.202 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=106,share_attr_fd=107
+2026-06-08 14:16:14.204 15989-16039 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:14.216 15989-16039 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:14.216 15989-16039 [Gralloc]               com.example.render_native_demo       I  Got handle 15 for fd 113
+2026-06-08 14:16:14.216 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:14.216 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=113,share_attr_fd=117
+2026-06-08 14:16:14.217 15989-16039 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:14.226 15989-16039 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:14.226 15989-16039 [Gralloc]               com.example.render_native_demo       I  Got handle 16 for fd 119
+2026-06-08 14:16:14.226 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:14.226 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=119,share_attr_fd=120
+2026-06-08 14:16:14.227 15989-16039 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:14.233 15989-16018 [Gralloc]               com.example.render_native_demo       I  Got handle 17 for fd 125
+2026-06-08 14:16:14.233 15989-16018 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1008, format : 0x2,internal_format : 0x2, usage : 0xb00. size=7741440,pixel_stride=1920,byte_stride=7680
+2026-06-08 14:16:14.233 15989-16018 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=125,share_attr_fd=126
+2026-06-08 14:16:14.234 15989-16046 AudioDecoder            com.example.render_native_demo       I  AudioTrack initialized: 44100 Hz, 2 channels
+2026-06-08 14:16:14.260 15989-16039 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:14.260 15989-16039 [Gralloc]               com.example.render_native_demo       I  Got handle 18 for fd 132
+2026-06-08 14:16:14.260 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:14.260 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=132,share_attr_fd=133
+2026-06-08 14:16:14.261 15989-16024 [Gralloc]               com.example.render_native_demo       I  Got handle 19 for fd 128
+2026-06-08 14:16:14.261 15989-16024 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+2026-06-08 14:16:14.261 15989-16024 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=128,share_attr_fd=135
+2026-06-08 14:16:14.261 15989-16039 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:14.268 15989-16039 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:14.268 15989-16039 [Gralloc]               com.example.render_native_demo       I  Got handle 20 for fd 123
+2026-06-08 14:16:14.268 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:14.268 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=123,share_attr_fd=124
+2026-06-08 14:16:14.269 15989-16039 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:14.275 15989-16039 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:14.275 15989-16039 [Gralloc]               com.example.render_native_demo       I  Got handle 21 for fd 122
+2026-06-08 14:16:14.275 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:14.275 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=122,share_attr_fd=130
+2026-06-08 14:16:14.276 15989-16039 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:14.282 15989-16018 [Gralloc]               com.example.render_native_demo       I  Got handle 22 for fd 140
+2026-06-08 14:16:14.282 15989-16018 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1008, format : 0x2,internal_format : 0x2, usage : 0xb00. size=7741440,pixel_stride=1920,byte_stride=7680
+2026-06-08 14:16:14.282 15989-16018 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=140,share_attr_fd=141
+2026-06-08 14:16:14.283 15989-16039 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:14.283 15989-16039 [Gralloc]               com.example.render_native_demo       I  Got handle 23 for fd 137
+2026-06-08 14:16:14.283 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:14.283 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=137,share_attr_fd=138
+2026-06-08 14:16:14.283 15989-16039 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:14.291 15989-16039 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:14.291 15989-16039 [Gralloc]               com.example.render_native_demo       I  Got handle 24 for fd 144
+2026-06-08 14:16:14.291 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:14.291 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=144,share_attr_fd=145
+2026-06-08 14:16:14.292 15989-16039 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:14.299 15989-16039 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:14.299 15989-16039 [Gralloc]               com.example.render_native_demo       I  Got handle 25 for fd 68
+2026-06-08 14:16:14.299 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:14.299 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=68,share_attr_fd=105
+2026-06-08 14:16:14.299 15989-16039 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:14.306 15989-16039 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:14.306 15989-16039 [Gralloc]               com.example.render_native_demo       I  Got handle 26 for fd 149
+2026-06-08 14:16:14.306 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:14.306 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=149,share_attr_fd=150
+2026-06-08 14:16:14.307 15989-16039 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:14.313 15989-16039 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:14.313 15989-16039 [Gralloc]               com.example.render_native_demo       I  Got handle 27 for fd 152
+2026-06-08 14:16:14.313 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:14.313 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=152,share_attr_fd=153
+2026-06-08 14:16:14.314 15989-16039 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:14.321 15989-16039 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:14.321 15989-16039 [Gralloc]               com.example.render_native_demo       I  Got handle 28 for fd 156
+2026-06-08 14:16:14.321 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:14.321 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=156,share_attr_fd=157
+2026-06-08 14:16:14.322 15989-16039 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:14.331 15989-16039 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:14.331 15989-16039 [Gralloc]               com.example.render_native_demo       I  Got handle 29 for fd 155
+2026-06-08 14:16:14.331 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:14.331 15989-16039 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=155,share_attr_fd=159
+2026-06-08 14:16:14.335 15989-16022 DecodeThread            com.example.render_native_demo       I  Codec started successfully, starting decoding loop
+2026-06-08 14:16:14.335 15989-16022 DecodeThread            com.example.render_native_demo       I  ===== startDecoding started =====
+2026-06-08 14:16:14.370 15989-16039 ACodec                  com.example.render_native_demo       W  [OMX.rk.video_decoder.avc] BAD CODEC: Output format changed unexpectedly from (diff) AMessage(what = 0x00000000) = {
+                                                                                                          int32_t color-range = 2
+                                                                                                          int32_t android._dataspace = 260
+                                                                                                        } to (diff) AMessage(what = 0x00000000) = {
+                                                                                                          int32_t color-range = 1
+                                                                                                          int32_t android._dataspace = 146866176
+                                                                                                        }
+2026-06-08 14:16:14.379 15989-15989 RenderRenderer          com.example.render_native_demo       I  ===== Frame available callback =====
+2026-06-08 14:16:14.385 15989-16018 RenderRenderer          com.example.render_native_demo       I  ===== renderFrame: frameAvailable is true, frameCount=1 =====
+2026-06-08 14:16:14.401 15989-15989 RenderRenderer          com.example.render_native_demo       I  ===== Frame available callback =====
+2026-06-08 14:16:14.414 15989-16018 RenderRenderer          com.example.render_native_demo       I  ===== renderFrame: frameAvailable is true, frameCount=2 =====
+2026-06-08 14:16:14.429 15989-15989 RenderRenderer          com.example.render_native_demo       I  ===== Frame available callback =====
+2026-06-08 14:16:14.440 15989-16018 RenderRenderer          com.example.render_native_demo       I  ===== renderFrame: frameAvailable is true, frameCount=3 =====
+2026-06-08 14:16:14.470 15989-15989 RenderRenderer          com.example.render_native_demo       I  ===== Frame available callback =====
+2026-06-08 14:16:14.473 15989-15989 RenderRenderer          com.example.render_native_demo       I  ===== Frame available callback =====
+2026-06-08 14:16:14.476 15989-16018 RenderRenderer          com.example.render_native_demo       I  ===== renderFrame: frameAvailable is true, frameCount=4 =====
+2026-06-08 14:16:16.364 15989-16022 DecodeThread            com.example.render_native_demo       I  ===== End of input stream (EOS) =====
+2026-06-08 14:16:16.516 15989-16022 DecodeThread            com.example.render_native_demo       I  ===== Looping video - resetting and seeking to start =====
+2026-06-08 14:16:16.516 15989-16022 DecodeThread            com.example.render_native_demo       I  ===== Releasing old codec and recreating for loop =====
+2026-06-08 14:16:16.615 15989-16022 DecodeThread            com.example.render_native_demo       I  ===== Recreating codec for loop =====
+2026-06-08 14:16:16.615 15989-16022 DecodeThread            com.example.render_native_demo       I  Creating MediaExtractor
+2026-06-08 14:16:16.615 15989-16022 MediaExtractor          com.example.render_native_demo       W  creating media extractor in calling process
+2026-06-08 14:16:16.616 15989-16022 ffmExtractor            com.example.render_native_demo       E  Cannot load library libffmpeg_utils.so dlerror = dlopen failed: library "libffmpeg_utils.so" not found
+2026-06-08 14:16:16.616 15989-16022 ffmExtractor            com.example.render_native_demo       E  lib open failed
+2026-06-08 14:16:16.621 15989-16022 SampleTable             com.example.render_native_demo       I  There are reordered frames present.
+2026-06-08 14:16:16.622 15989-16022 DecodeThread            com.example.render_native_demo       I  MediaExtractor created successfully
+2026-06-08 14:16:16.622 15989-16022 DecodeThread            com.example.render_native_demo       I  Looking for video track...
+2026-06-08 14:16:16.623 15989-16022 DecodeThread            com.example.render_native_demo       I  Found video track at index 0
+2026-06-08 14:16:16.624 15989-16022 DecodeThread            com.example.render_native_demo       I  Video duration: 4966 ms
+2026-06-08 14:16:16.624 15989-16022 DecodeThread            com.example.render_native_demo       I  Video format: video/avc, size: 1920x1080
+2026-06-08 14:16:16.624 15989-16022 DecodeThread            com.example.render_native_demo       I  Creating MediaCodec for video/avc
+2026-06-08 14:16:16.629 15989-16057 OMXClient               com.example.render_native_demo       I  Treble IOmx obtained
+2026-06-08 14:16:16.633 15989-16022 DecodeThread            com.example.render_native_demo       I  MediaCodec created
+2026-06-08 14:16:16.633 15989-16022 DecodeThread            com.example.render_native_demo       I  Configuring codec with surface: Surface(name=android.graphics.SurfaceTexture@1c949fc)/@0xc277885, width: 1920, height: 1080
+2026-06-08 14:16:16.634 15989-16056 MediaCodec              com.example.render_native_demo       I  [OMX.rk.video_decoder.avc] setting surface generation to 16372738
+2026-06-08 14:16:16.635 15989-16057 ACodec                  com.example.render_native_demo       E  [OMX.rk.video_decoder.avc] setPortMode on output to DynamicANWBuffer failed w/ err -1010
+2026-06-08 14:16:16.638 15989-16022 DecodeThread            com.example.render_native_demo       I  Codec configured successfully
+2026-06-08 14:16:16.637 15989-16057 AHierarchi...ateMachine com.example.render_native_demo       W  Warning message AMessage(what = 'omxI') = {
+                                                                                                      int32_t type = 0
+                                                                                                      int32_t event = 3
+                                                                                                      int32_t data1 = 1
+                                                                                                      int32_t data2 = 117440527
+                                                                                                    } unhandled in root state.
+2026-06-08 14:16:16.642 15989-16057 ACodec                  com.example.render_native_demo       W  [OMX.rk.video_decoder.avc] setting nBufferCountActual to 24 failed: -22
+2026-06-08 14:16:16.643 15989-16057 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:16.650 15989-16057 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:16.650 15989-16057 [Gralloc]               com.example.render_native_demo       I  Got handle 2 for fd 74
+2026-06-08 14:16:16.650 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:16.650 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=74,share_attr_fd=75
+2026-06-08 14:16:16.651 15989-16057 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:16.659 15989-16057 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:16.660 15989-16057 [Gralloc]               com.example.render_native_demo       I  Got handle 3 for fd 80
+2026-06-08 14:16:16.660 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:16.660 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=80,share_attr_fd=81
+2026-06-08 14:16:16.660 15989-16057 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:16.668 15989-16057 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:16.668 15989-16057 [Gralloc]               com.example.render_native_demo       I  Got handle 4 for fd 85
+2026-06-08 14:16:16.668 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:16.668 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=85,share_attr_fd=86
+2026-06-08 14:16:16.669 15989-16057 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:16.677 15989-16057 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:16.677 15989-16057 [Gralloc]               com.example.render_native_demo       I  Got handle 5 for fd 83
+2026-06-08 14:16:16.677 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:16.677 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=83,share_attr_fd=84
+2026-06-08 14:16:16.678 15989-16057 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:16.685 15989-16057 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:16.685 15989-16057 [Gralloc]               com.example.render_native_demo       I  Got handle 7 for fd 94
+2026-06-08 14:16:16.685 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:16.685 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=94,share_attr_fd=95
+2026-06-08 14:16:16.686 15989-16057 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:16.693 15989-16057 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:16.693 15989-16057 [Gralloc]               com.example.render_native_demo       I  Got handle 8 for fd 92
+2026-06-08 14:16:16.693 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:16.693 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=92,share_attr_fd=93
+2026-06-08 14:16:16.694 15989-16057 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:16.701 15989-16057 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:16.701 15989-16057 [Gralloc]               com.example.render_native_demo       I  Got handle 9 for fd 105
+2026-06-08 14:16:16.701 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:16.702 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=105,share_attr_fd=106
+2026-06-08 14:16:16.702 15989-16057 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:16.709 15989-16057 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:16.709 15989-16057 [Gralloc]               com.example.render_native_demo       I  Got handle 11 for fd 101
+2026-06-08 14:16:16.709 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:16.709 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=101,share_attr_fd=102
+2026-06-08 14:16:16.709 15989-16057 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:16.717 15989-16057 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:16.717 15989-16057 [Gralloc]               com.example.render_native_demo       I  Got handle 13 for fd 113
+2026-06-08 14:16:16.717 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:16.717 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=113,share_attr_fd=114
+2026-06-08 14:16:16.718 15989-16057 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:16.724 15989-16057 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:16.724 15989-16057 [Gralloc]               com.example.render_native_demo       I  Got handle 14 for fd 116
+2026-06-08 14:16:16.724 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:16.724 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=116,share_attr_fd=117
+2026-06-08 14:16:16.724 15989-16057 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:16.731 15989-16057 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:16.731 15989-16057 [Gralloc]               com.example.render_native_demo       I  Got handle 15 for fd 112
+2026-06-08 14:16:16.731 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:16.731 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=112,share_attr_fd=119
+2026-06-08 14:16:16.732 15989-16057 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:16.737 15989-16057 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:16.737 15989-16057 [Gralloc]               com.example.render_native_demo       I  Got handle 16 for fd 122
+2026-06-08 14:16:16.737 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:16.737 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=122,share_attr_fd=123
+2026-06-08 14:16:16.738 15989-16057 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:16.744 15989-16057 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:16.744 15989-16057 [Gralloc]               com.example.render_native_demo       I  Got handle 18 for fd 104
+2026-06-08 14:16:16.744 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:16.744 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=104,share_attr_fd=121
+2026-06-08 14:16:16.744 15989-16057 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:16.750 15989-16057 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:16.750 15989-16057 [Gralloc]               com.example.render_native_demo       I  Got handle 20 for fd 132
+2026-06-08 14:16:16.750 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:16.750 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=132,share_attr_fd=133
+2026-06-08 14:16:16.751 15989-16057 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:16.756 15989-16057 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:16.756 15989-16057 [Gralloc]               com.example.render_native_demo       I  Got handle 21 for fd 143
+2026-06-08 14:16:16.756 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:16.756 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=143,share_attr_fd=144
+2026-06-08 14:16:16.756 15989-16057 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:16.762 15989-16057 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:16.762 15989-16057 [Gralloc]               com.example.render_native_demo       I  Got handle 24 for fd 130
+2026-06-08 14:16:16.762 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:16.762 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=130,share_attr_fd=131
+2026-06-08 14:16:16.763 15989-16057 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:16.769 15989-16057 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:16.769 15989-16057 [Gralloc]               com.example.render_native_demo       I  Got handle 25 for fd 149
+2026-06-08 14:16:16.769 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:16.769 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=149,share_attr_fd=150
+2026-06-08 14:16:16.769 15989-16057 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:16.775 15989-16057 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:16.775 15989-16057 [Gralloc]               com.example.render_native_demo       I  Got handle 26 for fd 147
+2026-06-08 14:16:16.775 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:16.775 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=147,share_attr_fd=148
+2026-06-08 14:16:16.776 15989-16057 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:16.783 15989-16057 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:16.783 15989-16057 [Gralloc]               com.example.render_native_demo       I  Got handle 27 for fd 154
+2026-06-08 14:16:16.783 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:16.783 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=154,share_attr_fd=155
+2026-06-08 14:16:16.783 15989-16057 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:16.789 15989-16057 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:16.789 15989-16057 [Gralloc]               com.example.render_native_demo       I  Got handle 28 for fd 160
+2026-06-08 14:16:16.789 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:16.789 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=160,share_attr_fd=161
+2026-06-08 14:16:16.789 15989-16057 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:16.796 15989-16057 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:16.796 15989-16057 [Gralloc]               com.example.render_native_demo       I  Got handle 29 for fd 153
+2026-06-08 14:16:16.796 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:16.796 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=153,share_attr_fd=157
+2026-06-08 14:16:16.797 15989-16057 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:16.803 15989-16057 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:16.803 15989-16057 [Gralloc]               com.example.render_native_demo       I  Got handle 30 for fd 165
+2026-06-08 14:16:16.803 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:16.803 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=165,share_attr_fd=166
+2026-06-08 14:16:16.804 15989-16057 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:16.810 15989-16057 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:16.810 15989-16057 [Gralloc]               com.example.render_native_demo       I  Got handle 31 for fd 159
+2026-06-08 14:16:16.810 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:16.810 15989-16057 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=159,share_attr_fd=164
+2026-06-08 14:16:16.817 15989-16022 DecodeThread            com.example.render_native_demo       I  Codec started successfully, starting decoding loop
+2026-06-08 14:16:16.817 15989-16022 DecodeThread            com.example.render_native_demo       I  ===== startDecoding started =====
+2026-06-08 14:16:16.848 15989-16057 ACodec                  com.example.render_native_demo       W  [OMX.rk.video_decoder.avc] BAD CODEC: Output format changed unexpectedly from (diff) AMessage(what = 0x00000000) = {
+                                                                                                          int32_t color-range = 2
+                                                                                                          int32_t android._dataspace = 260
+                                                                                                        } to (diff) AMessage(what = 0x00000000) = {
+                                                                                                          int32_t color-range = 1
+                                                                                                          int32_t android._dataspace = 146866176
+                                                                                                        }
+2026-06-08 14:16:18.868 15989-16022 DecodeThread            com.example.render_native_demo       I  ===== End of input stream (EOS) =====
+2026-06-08 14:16:18.954 15989-16046 AudioDecoder            com.example.render_native_demo       I  Audio end of input stream
+2026-06-08 14:16:19.017 15989-16022 DecodeThread            com.example.render_native_demo       I  ===== Looping video - resetting and seeking to start =====
+2026-06-08 14:16:19.017 15989-16022 DecodeThread            com.example.render_native_demo       I  ===== Releasing old codec and recreating for loop =====
+2026-06-08 14:16:19.049 15989-16046 AudioDecoder            com.example.render_native_demo       I  Audio end of output stream (EOS)
+2026-06-08 14:16:19.050 15989-16046 AudioDecoder            com.example.render_native_demo       I  ===== Looping audio - resetting and seeking to start =====
+2026-06-08 14:16:19.050 15989-16046 AudioDecoder            com.example.render_native_demo       I  ===== Releasing old audio codec and recreating for loop =====
+2026-06-08 14:16:19.065 15989-16046 AudioDecoder            com.example.render_native_demo       I  ===== Recreating audio codec for loop =====
+2026-06-08 14:16:19.065 15989-16046 MediaExtractor          com.example.render_native_demo       W  creating media extractor in calling process
+2026-06-08 14:16:19.066 15989-16046 ffmExtractor            com.example.render_native_demo       E  Cannot load library libffmpeg_utils.so dlerror = dlopen failed: library "libffmpeg_utils.so" not found
+2026-06-08 14:16:19.066 15989-16046 ffmExtractor            com.example.render_native_demo       E  lib open failed
+2026-06-08 14:16:19.072 15989-16046 SampleTable             com.example.render_native_demo       I  There are reordered frames present.
+2026-06-08 14:16:19.080 15989-16065 OMXClient               com.example.render_native_demo       I  Treble IOmx obtained
+2026-06-08 14:16:19.088 15989-16046 AudioDecoder            com.example.render_native_demo       I  Audio format: {max-bitrate=192000, sample-rate=44100, track-id=2, durationUs=5015510, mime=audio/mp4a-latm, profile=2, channel-count=2, language=und, bitrate=192000, max-input-size=1275, csd-0=java.nio.HeapByteBuffer[pos=0 lim=2 cap=2]}
+2026-06-08 14:16:19.088 15989-16046 AudioDecoder            com.example.render_native_demo       I  Audio decoder prepared successfully
+2026-06-08 14:16:19.100 15989-16046 AudioDecoder            com.example.render_native_demo       I  Audio codec restarted
+2026-06-08 14:16:19.115 15989-16046 AudioDecoder            com.example.render_native_demo       I  Audio output format changed: {sample-rate=44100, pcm-encoding=2, mime=audio/raw, channel-count=2}
+2026-06-08 14:16:19.140 15989-16022 DecodeThread            com.example.render_native_demo       I  ===== Recreating codec for loop =====
+2026-06-08 14:16:19.140 15989-16022 DecodeThread            com.example.render_native_demo       I  Creating MediaExtractor
+2026-06-08 14:16:19.140 15989-16022 MediaExtractor          com.example.render_native_demo       W  creating media extractor in calling process
+2026-06-08 14:16:19.141 15989-16022 ffmExtractor            com.example.render_native_demo       E  Cannot load library libffmpeg_utils.so dlerror = dlopen failed: library "libffmpeg_utils.so" not found
+2026-06-08 14:16:19.141 15989-16022 ffmExtractor            com.example.render_native_demo       E  lib open failed
+2026-06-08 14:16:19.147 15989-16022 SampleTable             com.example.render_native_demo       I  There are reordered frames present.
+2026-06-08 14:16:19.148 15989-16022 DecodeThread            com.example.render_native_demo       I  MediaExtractor created successfully
+2026-06-08 14:16:19.148 15989-16022 DecodeThread            com.example.render_native_demo       I  Looking for video track...
+2026-06-08 14:16:19.149 15989-16022 DecodeThread            com.example.render_native_demo       I  Found video track at index 0
+2026-06-08 14:16:19.150 15989-16022 DecodeThread            com.example.render_native_demo       I  Video duration: 4966 ms
+2026-06-08 14:16:19.150 15989-16022 DecodeThread            com.example.render_native_demo       I  Video format: video/avc, size: 1920x1080
+2026-06-08 14:16:19.150 15989-16022 DecodeThread            com.example.render_native_demo       I  Creating MediaCodec for video/avc
+2026-06-08 14:16:19.153 15989-16069 OMXClient               com.example.render_native_demo       I  Treble IOmx obtained
+2026-06-08 14:16:19.156 15989-16022 DecodeThread            com.example.render_native_demo       I  MediaCodec created
+2026-06-08 14:16:19.156 15989-16022 DecodeThread            com.example.render_native_demo       I  Configuring codec with surface: Surface(name=android.graphics.SurfaceTexture@1c949fc)/@0xc277885, width: 1920, height: 1080
+2026-06-08 14:16:19.156 15989-16068 MediaCodec              com.example.render_native_demo       I  [OMX.rk.video_decoder.avc] setting surface generation to 16372739
+2026-06-08 14:16:19.158 15989-16069 ACodec                  com.example.render_native_demo       E  [OMX.rk.video_decoder.avc] setPortMode on output to DynamicANWBuffer failed w/ err -1010
+2026-06-08 14:16:19.160 15989-16069 AHierarchi...ateMachine com.example.render_native_demo       W  Warning message AMessage(what = 'omxI') = {
+                                                                                                      int32_t type = 0
+                                                                                                      int32_t event = 3
+                                                                                                      int32_t data1 = 1
+                                                                                                      int32_t data2 = 117440527
+                                                                                                    } unhandled in root state.
+2026-06-08 14:16:19.164 15989-16022 DecodeThread            com.example.render_native_demo       I  Codec configured successfully
+2026-06-08 14:16:19.168 15989-16069 ACodec                  com.example.render_native_demo       W  [OMX.rk.video_decoder.avc] setting nBufferCountActual to 24 failed: -22
+2026-06-08 14:16:19.169 15989-16069 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:19.177 15989-16069 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:19.177 15989-16069 [Gralloc]               com.example.render_native_demo       I  Got handle 2 for fd 69
+2026-06-08 14:16:19.177 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:19.177 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=69,share_attr_fd=74
+2026-06-08 14:16:19.179 15989-16069 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:19.186 15989-16069 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:19.186 15989-16069 [Gralloc]               com.example.render_native_demo       I  Got handle 3 for fd 81
+2026-06-08 14:16:19.186 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:19.186 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=81,share_attr_fd=82
+2026-06-08 14:16:19.187 15989-16069 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:19.194 15989-16069 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:19.194 15989-16069 [Gralloc]               com.example.render_native_demo       I  Got handle 4 for fd 76
+2026-06-08 14:16:19.194 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:19.194 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=76,share_attr_fd=80
+2026-06-08 14:16:19.195 15989-16069 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:19.202 15989-16069 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:19.202 15989-16069 [Gralloc]               com.example.render_native_demo       I  Got handle 5 for fd 86
+2026-06-08 14:16:19.202 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:19.202 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=86,share_attr_fd=87
+2026-06-08 14:16:19.203 15989-16069 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:19.209 15989-16069 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:19.209 15989-16069 [Gralloc]               com.example.render_native_demo       I  Got handle 7 for fd 85
+2026-06-08 14:16:19.209 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:19.209 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=85,share_attr_fd=92
+2026-06-08 14:16:19.210 15989-16069 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:19.216 15989-16069 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:19.216 15989-16069 [Gralloc]               com.example.render_native_demo       I  Got handle 8 for fd 96
+2026-06-08 14:16:19.216 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:19.216 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=96,share_attr_fd=97
+2026-06-08 14:16:19.217 15989-16069 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:19.223 15989-16069 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:19.223 15989-16069 [Gralloc]               com.example.render_native_demo       I  Got handle 9 for fd 102
+2026-06-08 14:16:19.223 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:19.223 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=102,share_attr_fd=103
+2026-06-08 14:16:19.224 15989-16069 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:19.230 15989-16069 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:19.231 15989-16069 [Gralloc]               com.example.render_native_demo       I  Got handle 11 for fd 95
+2026-06-08 14:16:19.231 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:19.231 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=95,share_attr_fd=106
+2026-06-08 14:16:19.232 15989-16069 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:19.237 15989-16069 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:19.238 15989-16069 [Gralloc]               com.example.render_native_demo       I  Got handle 13 for fd 113
+2026-06-08 14:16:19.238 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:19.238 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=113,share_attr_fd=114
+2026-06-08 14:16:19.238 15989-16069 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:19.244 15989-16069 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:19.244 15989-16069 [Gralloc]               com.example.render_native_demo       I  Got handle 14 for fd 94
+2026-06-08 14:16:19.244 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:19.244 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=94,share_attr_fd=112
+2026-06-08 14:16:19.245 15989-16069 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:19.251 15989-16069 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:19.251 15989-16069 [Gralloc]               com.example.render_native_demo       I  Got handle 15 for fd 119
+2026-06-08 14:16:19.251 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:19.251 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=119,share_attr_fd=120
+2026-06-08 14:16:19.252 15989-16069 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:19.258 15989-16069 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:19.258 15989-16069 [Gralloc]               com.example.render_native_demo       I  Got handle 16 for fd 117
+2026-06-08 14:16:19.258 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:19.258 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=117,share_attr_fd=118
+2026-06-08 14:16:19.260 15989-16069 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:19.266 15989-16069 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:19.267 15989-16069 [Gralloc]               com.example.render_native_demo       I  Got handle 18 for fd 129
+2026-06-08 14:16:19.267 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:19.267 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=129,share_attr_fd=130
+2026-06-08 14:16:19.268 15989-16069 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:19.274 15989-16069 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:19.274 15989-16069 [Gralloc]               com.example.render_native_demo       I  Got handle 20 for fd 132
+2026-06-08 14:16:19.274 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:19.274 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=132,share_attr_fd=133
+2026-06-08 14:16:19.275 15989-16069 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:19.282 15989-16069 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:19.282 15989-16069 [Gralloc]               com.example.render_native_demo       I  Got handle 21 for fd 124
+2026-06-08 14:16:19.282 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:19.282 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=124,share_attr_fd=137
+2026-06-08 14:16:19.283 15989-16069 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:19.289 15989-16069 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:19.289 15989-16069 [Gralloc]               com.example.render_native_demo       I  Got handle 23 for fd 143
+2026-06-08 14:16:19.289 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:19.289 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=143,share_attr_fd=144
+2026-06-08 14:16:19.290 15989-16069 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:19.296 15989-16069 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:19.296 15989-16069 [Gralloc]               com.example.render_native_demo       I  Got handle 24 for fd 139
+2026-06-08 14:16:19.296 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:19.296 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=139,share_attr_fd=146
+2026-06-08 14:16:19.297 15989-16069 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:19.302 15989-16069 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:19.302 15989-16069 [Gralloc]               com.example.render_native_demo       I  Got handle 25 for fd 149
+2026-06-08 14:16:19.302 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:19.302 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=149,share_attr_fd=150
+2026-06-08 14:16:19.303 15989-16069 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:19.309 15989-16069 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:19.309 15989-16069 [Gralloc]               com.example.render_native_demo       I  Got handle 26 for fd 123
+2026-06-08 14:16:19.309 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:19.309 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=123,share_attr_fd=148
+2026-06-08 14:16:19.310 15989-16069 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:19.316 15989-16069 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:19.316 15989-16069 [Gralloc]               com.example.render_native_demo       I  Got handle 27 for fd 155
+2026-06-08 14:16:19.316 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:19.316 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=155,share_attr_fd=156
+2026-06-08 14:16:19.317 15989-16069 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:19.322 15989-16069 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:19.323 15989-16069 [Gralloc]               com.example.render_native_demo       I  Got handle 28 for fd 158
+2026-06-08 14:16:19.323 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:19.323 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=158,share_attr_fd=159
+2026-06-08 14:16:19.324 15989-16069 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:19.330 15989-16069 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:19.330 15989-16069 [Gralloc]               com.example.render_native_demo       I  Got handle 29 for fd 154
+2026-06-08 14:16:19.330 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:19.330 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=154,share_attr_fd=161
+2026-06-08 14:16:19.331 15989-16069 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:19.338 15989-16069 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:19.338 15989-16069 [Gralloc]               com.example.render_native_demo       I  Got handle 31 for fd 168
+2026-06-08 14:16:19.338 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:19.338 15989-16069 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=168,share_attr_fd=169
+2026-06-08 14:16:19.341 15989-16022 DecodeThread            com.example.render_native_demo       I  Codec started successfully, starting decoding loop
+2026-06-08 14:16:19.341 15989-16022 DecodeThread            com.example.render_native_demo       I  ===== startDecoding started =====
+2026-06-08 14:16:19.385 15989-16069 ACodec                  com.example.render_native_demo       W  [OMX.rk.video_decoder.avc] BAD CODEC: Output format changed unexpectedly from (diff) AMessage(what = 0x00000000) = {
+                                                                                                          int32_t color-range = 2
+                                                                                                          int32_t android._dataspace = 260
+                                                                                                        } to (diff) AMessage(what = 0x00000000) = {
+                                                                                                          int32_t color-range = 1
+                                                                                                          int32_t android._dataspace = 146866176
+                                                                                                        }
+2026-06-08 14:16:19.499 15989-15994 zygote64                com.example.render_native_demo       I  Do partial code cache collection, code=28KB, data=20KB
+2026-06-08 14:16:19.500 15989-15994 zygote64                com.example.render_native_demo       I  After code cache collection, code=28KB, data=20KB
+2026-06-08 14:16:19.500 15989-15994 zygote64                com.example.render_native_demo       I  Increasing code cache capacity to 128KB
+2026-06-08 14:16:21.401 15989-16022 DecodeThread            com.example.render_native_demo       I  ===== End of input stream (EOS) =====
+2026-06-08 14:16:21.549 15989-16022 DecodeThread            com.example.render_native_demo       I  ===== Looping video - resetting and seeking to start =====
+2026-06-08 14:16:21.549 15989-16022 DecodeThread            com.example.render_native_demo       I  ===== Releasing old codec and recreating for loop =====
+2026-06-08 14:16:21.633 15989-16022 DecodeThread            com.example.render_native_demo       I  ===== Recreating codec for loop =====
+2026-06-08 14:16:21.633 15989-16022 DecodeThread            com.example.render_native_demo       I  Creating MediaExtractor
+2026-06-08 14:16:21.633 15989-16022 MediaExtractor          com.example.render_native_demo       W  creating media extractor in calling process
+2026-06-08 14:16:21.634 15989-16022 ffmExtractor            com.example.render_native_demo       E  Cannot load library libffmpeg_utils.so dlerror = dlopen failed: library "libffmpeg_utils.so" not found
+2026-06-08 14:16:21.634 15989-16022 ffmExtractor            com.example.render_native_demo       E  lib open failed
+2026-06-08 14:16:21.638 15989-16022 SampleTable             com.example.render_native_demo       I  There are reordered frames present.
+2026-06-08 14:16:21.639 15989-16022 DecodeThread            com.example.render_native_demo       I  MediaExtractor created successfully
+2026-06-08 14:16:21.639 15989-16022 DecodeThread            com.example.render_native_demo       I  Looking for video track...
+2026-06-08 14:16:21.640 15989-16022 DecodeThread            com.example.render_native_demo       I  Found video track at index 0
+2026-06-08 14:16:21.641 15989-16022 DecodeThread            com.example.render_native_demo       I  Video duration: 4966 ms
+2026-06-08 14:16:21.641 15989-16022 DecodeThread            com.example.render_native_demo       I  Video format: video/avc, size: 1920x1080
+2026-06-08 14:16:21.641 15989-16022 DecodeThread            com.example.render_native_demo       I  Creating MediaCodec for video/avc
+2026-06-08 14:16:21.645 15989-16077 OMXClient               com.example.render_native_demo       I  Treble IOmx obtained
+2026-06-08 14:16:21.650 15989-16022 DecodeThread            com.example.render_native_demo       I  MediaCodec created
+2026-06-08 14:16:21.650 15989-16022 DecodeThread            com.example.render_native_demo       I  Configuring codec with surface: Surface(name=android.graphics.SurfaceTexture@1c949fc)/@0xc277885, width: 1920, height: 1080
+2026-06-08 14:16:21.651 15989-16076 MediaCodec              com.example.render_native_demo       I  [OMX.rk.video_decoder.avc] setting surface generation to 16372740
+2026-06-08 14:16:21.652 15989-16077 ACodec                  com.example.render_native_demo       E  [OMX.rk.video_decoder.avc] setPortMode on output to DynamicANWBuffer failed w/ err -1010
+2026-06-08 14:16:21.653 15989-16077 AHierarchi...ateMachine com.example.render_native_demo       W  Warning message AMessage(what = 'omxI') = {
+                                                                                                      int32_t type = 0
+                                                                                                      int32_t event = 3
+                                                                                                      int32_t data1 = 1
+                                                                                                      int32_t data2 = 117440527
+                                                                                                    } unhandled in root state.
+2026-06-08 14:16:21.654 15989-16022 DecodeThread            com.example.render_native_demo       I  Codec configured successfully
+2026-06-08 14:16:21.661 15989-16077 ACodec                  com.example.render_native_demo       W  [OMX.rk.video_decoder.avc] setting nBufferCountActual to 24 failed: -22
+2026-06-08 14:16:21.661 15989-16077 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:21.669 15989-16077 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:21.669 15989-16077 [Gralloc]               com.example.render_native_demo       I  Got handle 2 for fd 75
+2026-06-08 14:16:21.669 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:21.669 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=75,share_attr_fd=76
+2026-06-08 14:16:21.670 15989-16077 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:21.677 15989-16077 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:21.677 15989-16077 [Gralloc]               com.example.render_native_demo       I  Got handle 3 for fd 73
+2026-06-08 14:16:21.677 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:21.677 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=73,share_attr_fd=74
+2026-06-08 14:16:21.679 15989-16077 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:21.685 15989-16077 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:21.685 15989-16077 [Gralloc]               com.example.render_native_demo       I  Got handle 4 for fd 92
+2026-06-08 14:16:21.685 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:21.685 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=92,share_attr_fd=93
+2026-06-08 14:16:21.685 15989-16077 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:21.691 15989-16077 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:21.691 15989-16077 [Gralloc]               com.example.render_native_demo       I  Got handle 7 for fd 84
+2026-06-08 14:16:21.691 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:21.691 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=84,share_attr_fd=85
+2026-06-08 14:16:21.692 15989-16077 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:21.700 15989-16077 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:21.701 15989-16077 [Gralloc]               com.example.render_native_demo       I  Got handle 8 for fd 96
+2026-06-08 14:16:21.701 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:21.701 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=96,share_attr_fd=97
+2026-06-08 14:16:21.701 15989-16077 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:21.707 15989-16077 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:21.707 15989-16077 [Gralloc]               com.example.render_native_demo       I  Got handle 9 for fd 102
+2026-06-08 14:16:21.707 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:21.707 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=102,share_attr_fd=103
+2026-06-08 14:16:21.708 15989-16077 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:21.715 15989-16077 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:21.715 15989-16077 [Gralloc]               com.example.render_native_demo       I  Got handle 11 for fd 106
+2026-06-08 14:16:21.715 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:21.715 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=106,share_attr_fd=107
+2026-06-08 14:16:21.715 15989-16077 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:21.722 15989-16077 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:21.722 15989-16077 [Gralloc]               com.example.render_native_demo       I  Got handle 13 for fd 113
+2026-06-08 14:16:21.722 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:21.722 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=113,share_attr_fd=114
+2026-06-08 14:16:21.722 15989-16077 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:21.729 15989-16077 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:21.729 15989-16077 [Gralloc]               com.example.render_native_demo       I  Got handle 14 for fd 82
+2026-06-08 14:16:21.729 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:21.729 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=82,share_attr_fd=83
+2026-06-08 14:16:21.729 15989-16077 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:21.737 15989-16077 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:21.737 15989-16077 [Gralloc]               com.example.render_native_demo       I  Got handle 15 for fd 119
+2026-06-08 14:16:21.737 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:21.737 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=119,share_attr_fd=120
+2026-06-08 14:16:21.737 15989-16077 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:21.744 15989-16077 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:21.744 15989-16077 [Gralloc]               com.example.render_native_demo       I  Got handle 16 for fd 117
+2026-06-08 14:16:21.744 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:21.744 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=117,share_attr_fd=118
+2026-06-08 14:16:21.745 15989-16077 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:21.751 15989-16077 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:21.751 15989-16077 [Gralloc]               com.example.render_native_demo       I  Got handle 18 for fd 123
+2026-06-08 14:16:21.751 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:21.751 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=123,share_attr_fd=124
+2026-06-08 14:16:21.752 15989-16077 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:21.758 15989-16077 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:21.758 15989-16077 [Gralloc]               com.example.render_native_demo       I  Got handle 20 for fd 132
+2026-06-08 14:16:21.758 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:21.758 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=132,share_attr_fd=133
+2026-06-08 14:16:21.759 15989-16077 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:21.766 15989-16077 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:21.766 15989-16077 [Gralloc]               com.example.render_native_demo       I  Got handle 21 for fd 137
+2026-06-08 14:16:21.766 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:21.766 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=137,share_attr_fd=138
+2026-06-08 14:16:21.767 15989-16077 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:21.773 15989-16077 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:21.773 15989-16077 [Gralloc]               com.example.render_native_demo       I  Got handle 23 for fd 143
+2026-06-08 14:16:21.773 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:21.773 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=143,share_attr_fd=144
+2026-06-08 14:16:21.774 15989-16077 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:21.781 15989-16077 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:21.781 15989-16077 [Gralloc]               com.example.render_native_demo       I  Got handle 24 for fd 131
+2026-06-08 14:16:21.781 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:21.781 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=131,share_attr_fd=146
+2026-06-08 14:16:21.781 15989-16077 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:21.787 15989-16077 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:21.787 15989-16077 [Gralloc]               com.example.render_native_demo       I  Got handle 25 for fd 149
+2026-06-08 14:16:21.787 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:21.787 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=149,share_attr_fd=150
+2026-06-08 14:16:21.787 15989-16077 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:21.793 15989-16077 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:21.793 15989-16077 [Gralloc]               com.example.render_native_demo       I  Got handle 26 for fd 130
+2026-06-08 14:16:21.793 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:21.793 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=130,share_attr_fd=148
+2026-06-08 14:16:21.794 15989-16077 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:21.800 15989-16077 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:21.800 15989-16077 [Gralloc]               com.example.render_native_demo       I  Got handle 27 for fd 155
+2026-06-08 14:16:21.800 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:21.800 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=155,share_attr_fd=156
+2026-06-08 14:16:21.800 15989-16077 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:21.805 15989-16077 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:21.806 15989-16077 [Gralloc]               com.example.render_native_demo       I  Got handle 28 for fd 158
+2026-06-08 14:16:21.806 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:21.806 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=158,share_attr_fd=159
+2026-06-08 14:16:21.806 15989-16077 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:21.812 15989-16077 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:21.812 15989-16077 [Gralloc]               com.example.render_native_demo       I  Got handle 29 for fd 153
+2026-06-08 14:16:21.812 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:21.812 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=153,share_attr_fd=154
+2026-06-08 14:16:21.813 15989-16077 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:21.819 15989-16077 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:21.819 15989-16077 [Gralloc]               com.example.render_native_demo       I  Got handle 30 for fd 165
+2026-06-08 14:16:21.819 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:21.819 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=165,share_attr_fd=166
+2026-06-08 14:16:21.820 15989-16077 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:21.826 15989-16077 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:21.826 15989-16077 [Gralloc]               com.example.render_native_demo       I  Got handle 31 for fd 163
+2026-06-08 14:16:21.826 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:21.826 15989-16077 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=163,share_attr_fd=164
+2026-06-08 14:16:21.831 15989-16022 DecodeThread            com.example.render_native_demo       I  Codec started successfully, starting decoding loop
+2026-06-08 14:16:21.831 15989-16022 DecodeThread            com.example.render_native_demo       I  ===== startDecoding started =====
+2026-06-08 14:16:21.868 15989-16077 ACodec                  com.example.render_native_demo       W  [OMX.rk.video_decoder.avc] BAD CODEC: Output format changed unexpectedly from (diff) AMessage(what = 0x00000000) = {
+                                                                                                          int32_t color-range = 2
+                                                                                                          int32_t android._dataspace = 260
+                                                                                                        } to (diff) AMessage(what = 0x00000000) = {
+                                                                                                          int32_t color-range = 1
+                                                                                                          int32_t android._dataspace = 146866176
+                                                                                                        }
+2026-06-08 14:16:22.233 15989-16024 [Gralloc]               com.example.render_native_demo       I  Got handle 5 for fd 170
+2026-06-08 14:16:22.233 15989-16024 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+2026-06-08 14:16:22.233 15989-16024 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=170,share_attr_fd=171
+2026-06-08 14:16:22.269 15989-16024 [Gralloc]               com.example.render_native_demo       I  Got handle 32 for fd 173
+2026-06-08 14:16:22.269 15989-16024 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1080, format : 0x1,internal_format : 0x1, usage : 0xb00. size=8294400,pixel_stride=1920,byte_stride=7680
+2026-06-08 14:16:22.269 15989-16024 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=173,share_attr_fd=174
+2026-06-08 14:16:22.483 15989-15989 MainActivity            com.example.render_native_demo       I  ===== Play clicked =====
+2026-06-08 14:16:22.483 15989-15989 MainActivity            com.example.render_native_demo       I  ===== Starting playback =====
+2026-06-08 14:16:22.483 15989-15989 RuntimeController       com.example.render_native_demo       I  [play] called
+2026-06-08 14:16:22.483 15989-15989 RuntimeController       com.example.render_native_demo       E  [play] Invalid state: PLAYING
+2026-06-08 14:16:22.484 15989-15989 AudioDecoder            com.example.render_native_demo       I  resume called
+2026-06-08 14:16:22.526 15989-16022 DecodeThread            com.example.render_native_demo       I  ===== startDecoding started =====
+2026-06-08 14:16:22.895 15989-15989 MainActivity            com.example.render_native_demo       I  ===== Play clicked =====
+2026-06-08 14:16:23.132 15989-15989 MainActivity            com.example.render_native_demo       I  ===== Play clicked =====
+2026-06-08 14:16:23.404 15989-15989 MainActivity            com.example.render_native_demo       I  ===== Play clicked =====
+2026-06-08 14:16:23.982 15989-16022 DecodeThread            com.example.render_native_demo       I  ===== End of input stream (EOS) =====
+2026-06-08 14:16:24.006 15989-16046 AudioDecoder            com.example.render_native_demo       I  Audio end of input stream
+2026-06-08 14:16:24.103 15989-16046 AudioDecoder            com.example.render_native_demo       I  Audio end of output stream (EOS)
+2026-06-08 14:16:24.103 15989-16046 AudioDecoder            com.example.render_native_demo       I  ===== Looping audio - resetting and seeking to start =====
+2026-06-08 14:16:24.103 15989-16046 AudioDecoder            com.example.render_native_demo       I  ===== Releasing old audio codec and recreating for loop =====
+2026-06-08 14:16:24.112 15989-16046 AudioDecoder            com.example.render_native_demo       I  ===== Recreating audio codec for loop =====
+2026-06-08 14:16:24.112 15989-16046 MediaExtractor          com.example.render_native_demo       W  creating media extractor in calling process
+2026-06-08 14:16:24.114 15989-16046 ffmExtractor            com.example.render_native_demo       E  Cannot load library libffmpeg_utils.so dlerror = dlopen failed: library "libffmpeg_utils.so" not found
+2026-06-08 14:16:24.114 15989-16046 ffmExtractor            com.example.render_native_demo       E  lib open failed
+2026-06-08 14:16:24.125 15989-16046 SampleTable             com.example.render_native_demo       I  There are reordered frames present.
+2026-06-08 14:16:24.136 15989-16084 OMXClient               com.example.render_native_demo       I  Treble IOmx obtained
+2026-06-08 14:16:24.139 15989-16022 DecodeThread            com.example.render_native_demo       I  ===== Looping video - resetting and seeking to start =====
+2026-06-08 14:16:24.139 15989-16022 DecodeThread            com.example.render_native_demo       I  ===== Releasing old codec and recreating for loop =====
+2026-06-08 14:16:24.143 15989-16046 AudioDecoder            com.example.render_native_demo       I  Audio format: {max-bitrate=192000, sample-rate=44100, track-id=2, durationUs=5015510, mime=audio/mp4a-latm, profile=2, channel-count=2, language=und, bitrate=192000, max-input-size=1275, csd-0=java.nio.HeapByteBuffer[pos=0 lim=2 cap=2]}
+2026-06-08 14:16:24.143 15989-16046 AudioDecoder            com.example.render_native_demo       I  Audio decoder prepared successfully
+2026-06-08 14:16:24.161 15989-16046 AudioDecoder            com.example.render_native_demo       I  Audio codec restarted
+2026-06-08 14:16:24.184 15989-16046 AudioDecoder            com.example.render_native_demo       I  Audio output format changed: {sample-rate=44100, pcm-encoding=2, mime=audio/raw, channel-count=2}
+2026-06-08 14:16:24.243 15989-16022 DecodeThread            com.example.render_native_demo       I  ===== Recreating codec for loop =====
+2026-06-08 14:16:24.243 15989-16022 DecodeThread            com.example.render_native_demo       I  Creating MediaExtractor
+2026-06-08 14:16:24.243 15989-16022 MediaExtractor          com.example.render_native_demo       W  creating media extractor in calling process
+2026-06-08 14:16:24.244 15989-16022 ffmExtractor            com.example.render_native_demo       E  Cannot load library libffmpeg_utils.so dlerror = dlopen failed: library "libffmpeg_utils.so" not found
+2026-06-08 14:16:24.244 15989-16022 ffmExtractor            com.example.render_native_demo       E  lib open failed
+2026-06-08 14:16:24.249 15989-16022 SampleTable             com.example.render_native_demo       I  There are reordered frames present.
+2026-06-08 14:16:24.251 15989-16022 DecodeThread            com.example.render_native_demo       I  MediaExtractor created successfully
+2026-06-08 14:16:24.251 15989-16022 DecodeThread            com.example.render_native_demo       I  Looking for video track...
+2026-06-08 14:16:24.251 15989-16022 DecodeThread            com.example.render_native_demo       I  Found video track at index 0
+2026-06-08 14:16:24.252 15989-16022 DecodeThread            com.example.render_native_demo       I  Video duration: 4966 ms
+2026-06-08 14:16:24.252 15989-16022 DecodeThread            com.example.render_native_demo       I  Video format: video/avc, size: 1920x1080
+2026-06-08 14:16:24.252 15989-16022 DecodeThread            com.example.render_native_demo       I  Creating MediaCodec for video/avc
+2026-06-08 14:16:24.255 15989-16089 OMXClient               com.example.render_native_demo       I  Treble IOmx obtained
+2026-06-08 14:16:24.258 15989-16022 DecodeThread            com.example.render_native_demo       I  MediaCodec created
+2026-06-08 14:16:24.259 15989-16022 DecodeThread            com.example.render_native_demo       I  Configuring codec with surface: Surface(name=android.graphics.SurfaceTexture@1c949fc)/@0xc277885, width: 1920, height: 1080
+2026-06-08 14:16:24.260 15989-16088 MediaCodec              com.example.render_native_demo       I  [OMX.rk.video_decoder.avc] setting surface generation to 16372741
+2026-06-08 14:16:24.261 15989-16089 ACodec                  com.example.render_native_demo       E  [OMX.rk.video_decoder.avc] setPortMode on output to DynamicANWBuffer failed w/ err -1010
+2026-06-08 14:16:24.264 15989-16089 AHierarchi...ateMachine com.example.render_native_demo       W  Warning message AMessage(what = 'omxI') = {
+                                                                                                      int32_t type = 0
+                                                                                                      int32_t event = 3
+                                                                                                      int32_t data1 = 1
+                                                                                                      int32_t data2 = 117440527
+                                                                                                    } unhandled in root state.
+2026-06-08 14:16:24.265 15989-16022 DecodeThread            com.example.render_native_demo       I  Codec configured successfully
+2026-06-08 14:16:24.268 15989-16089 ACodec                  com.example.render_native_demo       W  [OMX.rk.video_decoder.avc] setting nBufferCountActual to 24 failed: -22
+2026-06-08 14:16:24.268 15989-16089 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:24.275 15989-16089 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:24.275 15989-16089 [Gralloc]               com.example.render_native_demo       I  Got handle 2 for fd 65
+2026-06-08 14:16:24.275 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:24.275 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=65,share_attr_fd=76
+2026-06-08 14:16:24.276 15989-16089 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:24.284 15989-16089 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:24.284 15989-16089 [Gralloc]               com.example.render_native_demo       I  Got handle 3 for fd 81
+2026-06-08 14:16:24.284 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:24.284 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=81,share_attr_fd=82
+2026-06-08 14:16:24.285 15989-16089 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:24.292 15989-16089 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:24.292 15989-16089 [Gralloc]               com.example.render_native_demo       I  Got handle 4 for fd 78
+2026-06-08 14:16:24.292 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:24.292 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=78,share_attr_fd=80
+2026-06-08 14:16:24.293 15989-16089 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:24.300 15989-16089 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:24.301 15989-16089 [Gralloc]               com.example.render_native_demo       I  Got handle 7 for fd 87
+2026-06-08 14:16:24.301 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:24.301 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=87,share_attr_fd=92
+2026-06-08 14:16:24.301 15989-16089 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:24.308 15989-16089 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:24.308 15989-16089 [Gralloc]               com.example.render_native_demo       I  Got handle 8 for fd 54
+2026-06-08 14:16:24.308 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:24.308 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=54,share_attr_fd=56
+2026-06-08 14:16:24.308 15989-16089 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:24.315 15989-16089 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:24.315 15989-16089 [Gralloc]               com.example.render_native_demo       I  Got handle 9 for fd 97
+2026-06-08 14:16:24.315 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:24.315 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=97,share_attr_fd=101
+2026-06-08 14:16:24.316 15989-16089 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:24.322 15989-16089 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:24.322 15989-16089 [Gralloc]               com.example.render_native_demo       I  Got handle 11 for fd 103
+2026-06-08 14:16:24.322 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:24.322 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=103,share_attr_fd=105
+2026-06-08 14:16:24.322 15989-16089 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:24.329 15989-16089 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:24.329 15989-16089 [Gralloc]               com.example.render_native_demo       I  Got handle 13 for fd 95
+2026-06-08 14:16:24.329 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:24.329 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=95,share_attr_fd=96
+2026-06-08 14:16:24.330 15989-16089 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:24.336 15989-16089 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:24.336 15989-16089 [Gralloc]               com.example.render_native_demo       I  Got handle 14 for fd 114
+2026-06-08 14:16:24.336 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:24.336 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=114,share_attr_fd=115
+2026-06-08 14:16:24.337 15989-16089 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:24.342 15989-16089 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:24.342 15989-16089 [Gralloc]               com.example.render_native_demo       I  Got handle 15 for fd 112
+2026-06-08 14:16:24.342 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:24.342 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=112,share_attr_fd=113
+2026-06-08 14:16:24.343 15989-16089 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:24.349 15989-16089 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:24.349 15989-16089 [Gralloc]               com.example.render_native_demo       I  Got handle 16 for fd 120
+2026-06-08 14:16:24.349 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:24.349 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=120,share_attr_fd=121
+2026-06-08 14:16:24.350 15989-16089 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:24.355 15989-16089 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:24.356 15989-16089 [Gralloc]               com.example.render_native_demo       I  Got handle 18 for fd 123
+2026-06-08 14:16:24.356 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:24.356 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=123,share_attr_fd=124
+2026-06-08 14:16:24.356 15989-16089 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:24.362 15989-16089 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:24.362 15989-16089 [Gralloc]               com.example.render_native_demo       I  Got handle 20 for fd 119
+2026-06-08 14:16:24.362 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:24.362 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=119,share_attr_fd=130
+2026-06-08 14:16:24.363 15989-16089 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:24.369 15989-16089 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:24.369 15989-16089 [Gralloc]               com.example.render_native_demo       I  Got handle 21 for fd 133
+2026-06-08 14:16:24.369 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:24.369 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=133,share_attr_fd=134
+2026-06-08 14:16:24.370 15989-16089 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:24.376 15989-16089 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:24.376 15989-16089 [Gralloc]               com.example.render_native_demo       I  Got handle 23 for fd 118
+2026-06-08 14:16:24.376 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:24.376 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=118,share_attr_fd=132
+2026-06-08 14:16:24.378 15989-16089 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:24.384 15989-16089 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:24.385 15989-16089 [Gralloc]               com.example.render_native_demo       I  Got handle 24 for fd 144
+2026-06-08 14:16:24.385 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:24.385 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=144,share_attr_fd=145
+2026-06-08 14:16:24.385 15989-16089 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:24.391 15989-16089 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:24.391 15989-16089 [Gralloc]               com.example.render_native_demo       I  Got handle 25 for fd 139
+2026-06-08 14:16:24.391 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:24.391 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=139,share_attr_fd=143
+2026-06-08 14:16:24.392 15989-16089 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:24.399 15989-16089 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:24.399 15989-16089 [Gralloc]               com.example.render_native_demo       I  Got handle 26 for fd 152
+2026-06-08 14:16:24.399 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:24.399 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=152,share_attr_fd=153
+2026-06-08 14:16:24.400 15989-16089 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:24.406 15989-16089 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:24.406 15989-16089 [Gralloc]               com.example.render_native_demo       I  Got handle 27 for fd 150
+2026-06-08 14:16:24.406 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:24.406 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=150,share_attr_fd=151
+2026-06-08 14:16:24.407 15989-16089 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:24.414 15989-16089 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:24.414 15989-16089 [Gralloc]               com.example.render_native_demo       I  Got handle 28 for fd 149
+2026-06-08 14:16:24.414 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:24.414 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=149,share_attr_fd=156
+2026-06-08 14:16:24.415 15989-16089 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:24.420 15989-16089 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:24.420 15989-16089 [Gralloc]               com.example.render_native_demo       I  Got handle 29 for fd 159
+2026-06-08 14:16:24.420 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:24.420 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=159,share_attr_fd=160
+2026-06-08 14:16:24.421 15989-16089 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:24.427 15989-16089 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:24.427 15989-16089 [Gralloc]               com.example.render_native_demo       I  Got handle 31 for fd 148
+2026-06-08 14:16:24.427 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:24.427 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=148,share_attr_fd=158
+2026-06-08 14:16:24.428 15989-16089 GrallocMap...assthrough com.example.render_native_demo       W  buffer descriptor with invalid usage bits 0x2000
+2026-06-08 14:16:24.434 15989-16089 [Gralloc]               com.example.render_native_demo       I  for nv12, w : 1920, h : 1088, pixel_stride : 1920, byte_stride : 1920, size : 4177920; internalHeight : 1088.
+2026-06-08 14:16:24.434 15989-16089 [Gralloc]               com.example.render_native_demo       I  Got handle 33 for fd 169
+2026-06-08 14:16:24.434 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave, w : 1920, h : 1088, format : 0x15,internal_format : 0x15, usage : 0x2900. size=4177920,pixel_stride=1920,byte_stride=1920
+2026-06-08 14:16:24.434 15989-16089 [Gralloc]               com.example.render_native_demo       I  leave: prime_fd=169,share_attr_fd=176
+2026-06-08 14:16:24.437 15989-16022 DecodeThread            com.example.render_native_demo       I  Codec started successfully, starting decoding loop
+2026-06-08 14:16:24.437 15989-16022 DecodeThread            com.example.render_native_demo       I  ===== startDecoding started =====
+2026-06-08 14:16:24.484 15989-16089 ACodec                  com.example.render_native_demo       W  [OMX.rk.video_decoder.avc] BAD CODEC: Output format changed unexpectedly from (diff) AMessage(what = 0x00000000) = {
+                                                                                                          int32_t color-range = 2
+                                                                                                          int32_t android._dataspace = 260
+                                                                                                        } to (diff) AMessage(what = 0x00000000) = {
+                                                                                                          int32_t color-range = 1
+                                                                                                          int32_t android._dataspace = 146866176
+                                                                                                        }
+---------------------------- PROCESS ENDED (15989) for package com.example.render_native_demo ----------------------------
