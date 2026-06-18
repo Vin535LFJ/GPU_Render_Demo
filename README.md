@@ -13,7 +13,8 @@
 3. [`docs/ROADMAP.md`](docs/ROADMAP.md)：P0 到 P4 的阶段计划、blocker、删除/后置设计。
 4. [`docs/ADR/`](docs/ADR/)：已接受的架构决策。
 5. [`docs/SPECS/`](docs/SPECS/)：运行时、渲染、同步、验收规格。
-6. [`docs/TASKS/`](docs/TASKS/)：按阶段拆分的增量交付任务。
+6. [`docs/VIDEO_TEXTURE_RENDERING_LEARNING_GUIDE.md`](docs/VIDEO_TEXTURE_RENDERING_LEARNING_GUIDE.md)：视频纹理化、OpenGL ES、Shader 和音视频处理学习指南。
+7. [`docs/TASKS/`](docs/TASKS/)：按阶段拆分的增量交付任务。
 
 ## 当前阶段
 
