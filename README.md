@@ -8,13 +8,15 @@
 
 ## 推荐阅读顺序
 
-1. [`docs/PROJECT_VISION.md`](docs/PROJECT_VISION.md)：项目目标、MVP、非目标、当前阶段。
-2. [`docs/SYSTEM_ARCHITECTURE.md`](docs/SYSTEM_ARCHITECTURE.md)：系统架构、线程模型、模块边界、ownership。
-3. [`docs/ROADMAP.md`](docs/ROADMAP.md)：P0 到 P4 的阶段计划、blocker、删除/后置设计。
-4. [`docs/ADR/`](docs/ADR/)：已接受的架构决策。
-5. [`docs/SPECS/`](docs/SPECS/)：运行时、渲染、同步、验收规格。
-6. [`docs/VIDEO_TEXTURE_RENDERING_LEARNING_GUIDE.md`](docs/VIDEO_TEXTURE_RENDERING_LEARNING_GUIDE.md)：视频纹理化、OpenGL ES、Shader 和音视频处理学习指南。
-7. [`docs/TASKS/`](docs/TASKS/)：按阶段拆分的增量交付任务。
+1. [`docs/DOCUMENTATION_INDEX.md`](docs/DOCUMENTATION_INDEX.md)：文档地图，说明哪些文档是入口、交付事实源、技术事实源和辅助材料。
+2. [`docs/CAREER_PORTFOLIO_PLAN.md`](docs/CAREER_PORTFOLIO_PLAN.md)：面向 AI Agent 交付岗位与图像渲染/音视频/OpenGL 岗位的项目规整和下一阶段路线。
+3. [`docs/PROJECT_VISION.md`](docs/PROJECT_VISION.md)：项目目标、MVP、非目标、当前阶段。
+4. [`docs/SYSTEM_ARCHITECTURE.md`](docs/SYSTEM_ARCHITECTURE.md)：系统架构、线程模型、模块边界、ownership。
+5. [`docs/ROADMAP.md`](docs/ROADMAP.md)：P0 到 P4 的阶段计划、blocker、删除/后置设计。
+6. [`docs/SPECS/`](docs/SPECS/)：运行时、渲染、同步、验收规格。
+7. [`docs/ADR/`](docs/ADR/)：已接受的架构决策。
+8. [`docs/TASKS/`](docs/TASKS/)：按阶段拆分的增量交付任务。
+9. [`docs/VIDEO_TEXTURE_RENDERING_LEARNING_GUIDE.md`](docs/VIDEO_TEXTURE_RENDERING_LEARNING_GUIDE.md)：视频纹理化、OpenGL ES、Shader 和音视频处理学习指南。
 
 ## 当前阶段
 
